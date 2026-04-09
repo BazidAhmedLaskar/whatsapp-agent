@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: 34e114876b0b11c390a56381ad16ebd13914f8d5
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683   # v4
 
       - name: Setup Node.js
-        uses: 49933ea5288caeca8642d1e84afbd3f7d6820020
+        uses: actions/setup-node@1a5c5c6f8c9f6f8d8b0c6b1c3a2d4e5f6g7h8i9j   # v4 (replace with actual)
         with:
           node-version: '20'
 
